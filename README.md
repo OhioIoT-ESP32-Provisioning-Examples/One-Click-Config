@@ -30,3 +30,7 @@ git clone https://github.com/OhioIoT-ESP32-Provisioning-Examples/Provisioning-St
 ## About
 *OhioIoT is an IoT platform designed for small-scale IoT projects (https://www.ohioiot.com).*
 
+
+## Updates
+
+**10/18/25** - WiFi.begin() will put the WiFi in WIFI_STA mode automatically if it comes from WIFI_OFF.  However, if the device is coming from WIFI_AP mode, WiFi.begin() will apparently put it in WIFI_AP_STA mode, and leave the DEVICE_PROVISIONING SSID active.  So, best to explicitly call WiFi.mode(WIFI_STA) before WiFi.begin() in _src/main.cpp_.  
