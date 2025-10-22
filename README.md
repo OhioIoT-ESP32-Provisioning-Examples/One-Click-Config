@@ -2,13 +2,13 @@
 
 
 ## Overview
-This code serves is an output from the YouTube video [ESP32 Provisioning - Provisioning Strategies](https://youtu.be/KfPEm5m-Xdc).  👉 Subscribe to the [OhioIoT YouTube Channel](https://www.youtube.com/@OhioIoT?sub_confirmation=1) for more on All Things IoT: hardware, firmware, connectivity, cloud computing, and dev toolkit.
+This code serves is an output from the YouTube video [ESP32 Provisioning - One-Click Config](https://youtu.be/ggkNcxTs2Pc).  👉 Subscribe to the [OhioIoT YouTube Channel](https://www.youtube.com/@OhioIoT?sub_confirmation=1) for more on All Things IoT: hardware, firmware, connectivity, cloud computing, and dev toolkit.
 
 
 
 ## Getting Started
 ```
-git clone https://github.com/OhioIoT-ESP32-Provisioning-Examples/Provisioning-Strategies.git
+git clone https://github.com/OhioIoT-ESP32-Provisioning-Examples/One-Click-Config.git
 ```
 
 ### Getting Started - PlatformIO
